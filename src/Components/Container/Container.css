@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.content-info{
+    width: 60%;
+    float: left;
+    border-right: 1px solid grey;
+    
+}
+.content-info marquee{
+    background-color: gold;
+    height: 54px;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.profile-cart{
+    width: 40%;
+    float: right;
+}

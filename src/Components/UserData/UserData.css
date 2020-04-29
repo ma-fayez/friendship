@@ -1,0 +1,52 @@
+.user-content{
+    border-bottom: 1px solid gold;
+    border-right: 1px solid gold;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.user-img{
+    width: 100%;
+    text-align: center;
+}
+.user-img img{
+    width: 400px;
+}
+.user-info p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add-button{
+    background-color: rgb(255, 208, 0);
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(27, 26, 26);
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/*Responsive Design*/
+@media screen and (max-width: 728px){
+
+    .user-content{
+       
+        border: 2px solid gold;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        box-shadow: 5px 5px 10px;
+    }
+    
+    .user-img img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.header-img{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+
+}
+.header-img img{
+    height: 180px;
+}
+.header-menu .nav{
+    background-color: aquamarine;
+    font-size: 22px;
+    line-height: 50px;
+   
+    
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+    text-align: start;
+    transition: all .5s ease;
+    
+}
+.nav a:first-child{
+    margin-left: 5%;
+}
+.nav a:hover{
+    background-color: rgb(41, 116, 116);
+    color: white;
+}
+.user{
+    float: right;
+    margin-right: 7%;
+    font-size: 35px;
+}
+@media screen and (max-width: 728px){
+    .header-img img{
+        height: 170px;
+    }
+}

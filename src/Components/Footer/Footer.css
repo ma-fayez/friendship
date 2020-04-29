@@ -1,0 +1,28 @@
+.footer{
+    background-color: aqua;
+    display: inline-block;  
+    width: 100%;  
+    text-align: center;
+    
+    }
+    .copy{
+        background-color: black;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .copy a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .copy a:hover{
+        color: red;
+    }
+    @media screen and (max-width: 728px){
+        .copy{
+            font-size: 16px;
+        }
+    }

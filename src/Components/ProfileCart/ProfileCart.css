@@ -1,0 +1,52 @@
+.Profile-Cart{
+    text-align: center;
+}
+.count h2{
+    background-color: red;
+    margin-top: 0px;
+    height: 49px;
+    padding-top: 15px;
+}
+.profile img{
+    width: 280px;
+}
+.profile p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.last-added{
+    border-bottom: 5px solid lightsalmon;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+}
+
+/*Responsive Design*/
+@media screen and (max-width: 728px){
+    .count h2{
+        background-color: red;
+        margin-top: 0px;
+        height: 44px;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .profile img{
+        width: 90%;
+    }
+    .profile h2{
+        font-size: 16px;
+    }
+    .profile p{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .last-added{
+        border-bottom: 5px solid lightsalmon;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
+    
+}
